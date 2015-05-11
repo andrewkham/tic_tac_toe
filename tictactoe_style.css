@@ -1,0 +1,168 @@
+body {
+    background-color: #939393;
+}
+
+header {
+    background-color: #006bb5;
+    height: 170px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#NBAlogo {
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+#finalsLogo {
+    margin: 27px 0px 30px;
+    height: 116px;
+    width: 380px;
+}
+
+#finalsTrophy {
+    margin-bottom: 23px;
+}
+
+.scores {
+    background-color: white;
+    border-color: #006bb5;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 116px;
+}
+
+#lakersLogo {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 156px;
+    height: 100px;
+}
+
+#celticsLogo {
+    margin-left: 20px;
+    width: 90px;
+    height: 100px;
+}
+
+.rings {
+    height: 80px;
+    width: 80px;
+    /*background-color: blue;*/
+    display: inline-block;
+    margin-bottom: 9px;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.container {
+    margin-top: 10px;
+    height: 720px;
+    width: 1200px;
+    background-image: url("images/backgroundCourt.png");
+    text-align: center;
+}
+
+#board {
+    height: 600px;
+    width: 600px;
+    margin: 58px auto;
+}
+
+.cell {
+    height: 150px;
+    width: 150px;
+    /*border-color: blue;
+    border-style: solid;*/
+    /*border-width: 2px;*/
+    position: relative;
+}
+
+#cellOne {
+    bottom: 90%;
+    left: 27%;
+}
+#cellOne:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+
+#cellTwo {
+    bottom: 111%;
+    left: 44%;
+}
+#cellTwo:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellThree {
+    bottom: 132%;
+    left: 61%;
+}
+#cellThree:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellFour {
+    bottom: 123%;
+    left: 27%;
+}
+#cellFour:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellFive {
+    bottom: 144%;
+    left: 44%;
+}
+#cellFive:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellSix {
+    bottom: 165%;
+    left: 61%;
+}
+#cellSix:Hover{
+	background-color: #006bb5; 
+	opacity: 0.2;
+}
+#cellSeven {
+    bottom: 158%;
+    left: 27%;
+}
+#cellSeven:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellEight {
+    bottom: 179%;
+    left: 44%;
+}
+#cellEight:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+#cellNine {
+    bottom: 200%;
+    left: 61%;
+}
+#cellNine:Hover{
+	background-color: #006bb5;
+	opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
