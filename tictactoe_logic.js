@@ -16,7 +16,9 @@ chooseBox();
 function chooseBox() {
         for (var i = 0; i < cells.length; i++) {
             cells[i].addEventListener('click', function() {
-                this.innerHTML = takeTurns();
+                if (this.innerHTML !== "") {
+                    alert ("Sorry bitch, box is taken!")
+                } else this.innerHTML = takeTurns();
             })
         }
     }
